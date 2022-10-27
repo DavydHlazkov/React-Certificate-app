@@ -1,0 +1,16 @@
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 60%;
+    margin-right: 50px;
+    align-self: start;
+    margin-top: 200px;
+    border: 2px solid black;
+    display: flex;
+     padding: 20px;
+    font-size: 30px;
+    color: black;
+    word-wrap: break-word;
+    overflow: hidden;
+  }

@@ -1,0 +1,43 @@
+.certificate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 30px;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.selected {
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 30px;
+  background-color: #c0c0c0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.all-list {
+  width: 60%;
+  align-self: center;
+  margin-top: 200px;
+}
+.selected p {
+  align-self: center;
+  text-align: right;
+}
+
+.empty-list {
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  color: #c0c0c0;
+}
